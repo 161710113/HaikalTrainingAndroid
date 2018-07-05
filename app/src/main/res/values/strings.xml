@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Haikal Training</string>
+    <string name="perintah">Cari Tempat Wisata di Sini</string>
+    <string name="toastTextBtn">Panggil Toast</string>
+    <string name="exitTextBtn">Keluar Aplikasi</string>
+    <string name="listDialogTextBtn">Panggil List Dialog</string>
+    <string name="hellodate">List Dialog!!!</string>
+    <string name="checkBox">checkBox ini : Tidak Dicentang!</string>
+</resources>

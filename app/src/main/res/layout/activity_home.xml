@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/ic_launcher_background"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+    <TableRow android:gravity="center">
+    <Button
+        android:id="@+id/btn_pindah"
+        android:layout_column="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Pindah"
+        android:text="Linear Layout" />
+
+    <Button
+        android:id="@id/btn_pindah"
+        android:layout_column="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Pindah2"
+        android:text="Relative Layout" />
+    </TableRow>
+    <TableRow android:gravity="center">
+    <Button
+        android:id="@id/btn_pindah"
+        android:layout_column="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Pindah3"
+        android:text="Table Layout" />
+    <Button
+        android:id="@id/btn_pindah"
+        android:layout_column="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Pindah4"
+        android:text="Image View" />
+    </TableRow>
+    <TableRow android:gravity="center">
+    <Button
+        android:id="@id/btn_pindah"
+        android:layout_column="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Pindah5"
+        android:text="Auto Complete" />
+    <Button
+        android:id="@id/btn_pindah"
+        android:layout_column="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Pindah6"
+        android:text="Dialog Box" />
+    </TableRow>
+    <TableRow android:gravity="center">
+    <Button
+        android:id="@id/btn_pindah"
+        android:layout_column="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Pindah7"
+        android:text="Date Picker" />
+    <Button
+        android:id="@id/btn_pindah"
+        android:layout_column="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Pindah8"
+        android:text="Check Box" />
+    </TableRow>
+    <TableRow android:gravity="center">
+    <Button
+        android:id="@id/btn_pindah"
+        android:layout_column="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Pindah9"
+        android:text="Radio Button" />
+    <Button
+        android:id="@id/btn_pindah"
+        android:layout_column="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Pindah10"
+        android:text="List View" />
+    </TableRow>
+
+
+</TableLayout>

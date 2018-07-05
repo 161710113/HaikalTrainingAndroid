@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RadioButtonHaikal">
+    
+    <RadioGroup
+        android:padding="5px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/orientation"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/horizontal"
+            android:text="Horizontal"/>
+        <RadioButton
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/vertical"
+            android:text="Vertical"/>
+    </RadioGroup>
+    <RadioGroup
+        android:id="@+id/gravity"
+        android:orientation="vertical"
+        android:padding="5px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/kanan"
+            android:text="Kanan" />
+        <RadioButton
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/kiri"
+            android:text="Kiri" />
+        <RadioButton
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/tengah"
+            android:text="Tengah" />
+
+    </RadioGroup>
+
+</LinearLayout>
